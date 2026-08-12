@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mymod",
+  "version": "${version}",
+  "name": "MinecraftShimmer",
+  "description": "MinecraftShimmer —— 为 Minecraft 1.21.11 增添神奇「微光流体」。可流动、可无限水源，微光桶可转换、掉落可分解回原材料，带来全新的流体玩法体验。",
+  "authors": [
+    "Furina104"
+  ],
+  "license": "MIT",
+  "icon": "assets/mymod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.mymod.MyMod"
+    ],
+    "client": [
+      "com.example.mymod.MyModClient"
+    ]
+  },
+  "mixins": [
+    "mymod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+  }
+}

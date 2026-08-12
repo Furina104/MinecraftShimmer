@@ -1,0 +1,7 @@
+{
+  "mod.mymod.name": "我的模组",
+  "mod.mymod.description": "这是一个 Minecraft 1.21.11 的 Fabric 模组示例。",
+  "block.mymod.weiguang": "微光",
+  "fluid.mymod.weiguang": "微光",
+  "item.mymod.weiguang_bucket": "微光桶"
+}
